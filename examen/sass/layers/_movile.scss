@@ -1,0 +1,65 @@
+//  Header
+.logo{
+    width: 35%;
+    padding: 4%;
+}
+.logo-Hambueguer{
+    width:7%;
+    padding: 5%;
+    padding-left: 42%;
+}
+.menu{
+    display: none;
+}
+.titulo{
+    font-size: 95px / $fzparem + rem ;
+    padding: 4%;
+    margin: 0;
+}
+.texto{
+    color: $texto;
+    padding: 4% 4% 8% 4%;
+    margin: 0;
+    font-size: 13px / $fzparem + rem;
+}
+.rayo{
+    display: none;
+}
+// Imagenes
+.image{
+    padding: 0% 4% 0% 4%;
+    width: 95%;
+}
+.icono{
+    display: none;
+}
+
+// Footer
+#footer{
+    text-align: center;
+    background-color: $footer;
+}
+.phone{
+    padding-top: 10%;
+}
+.numero{
+    margin: 0;
+    padding: 4%;
+    font-size: 44px / $fzparem + rem;
+}
+.menu2{
+    padding: 2%;
+    margin: 0;
+}
+.menu2 li{
+    display: inline;
+}
+.menu2 li + li{
+    margin-left: 1%;
+}
+.menu2 a{
+    color: black;
+    font-size: 14px / $fzparem + rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
