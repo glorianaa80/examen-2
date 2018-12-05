@@ -13,6 +13,7 @@
         margin: 0;
     }
     .menu1{
+        padding-right: 8%;
         display: inline;
         float: right;
         padding: 4%;
@@ -33,7 +34,7 @@
         color: $texto;
         padding: 0% 4% 4% 10%;
         margin: 0;
-        font-size: 13px / $fzparem + rem;
+        font-size: 16px / $fzparem + rem;
     }
     .rayo{
         padding-right: 36%;
@@ -65,9 +66,20 @@
         float: right;
     }
     .icono2{
+        position: absolute;
+        top: 96%;
+        left: 3%;
         width: 4%;
         display: inline;
         float: left;
+    }
+    .icono3{
+        position: absolute;
+        top: 118%;
+        right: 6%;
+        width: 6%;
+        display: inline;
+        float: right;
     }
 
 
