@@ -8,7 +8,7 @@
     padding: 5%;
     padding-left: 42%;
 }
-.menu{
+.menu1{
     display: none;
 }
 .titulo{
@@ -33,6 +33,7 @@
 .icono{
     display: none;
 }
+
 
 // Footer
 #footer{
@@ -62,4 +63,9 @@
     font-size: 14px / $fzparem + rem;
     text-transform: uppercase;
     text-decoration: none;
+}
+.horizontal{
+    width: 1px;
+    height: 100px;
+    background-color: black;
 }
