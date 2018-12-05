@@ -1,3 +1,118 @@
-@media(max-width:$breakpoint-lg){
-    
+@media(min-width:$breakpoint-xl){
+    // Header
+    .logo{
+        width: 15%;
+        padding: 4% 4% 4% 10%;
+    }
+    .logo-Hambueguer{
+        display: none;
+    }
+    .titulo{
+        font-size: 100px / $fzparem + rem ;
+        padding: 4% 4% 4% 10%;
+        margin: 0;
+    }
+    .menu1{
+        display: inline;
+        float: right;
+        padding: 4%;
+        padding-right: 8%;
+        margin: 0;
+    }
+    .menu1 li{
+        display: inline;
+    }
+    .menu1 a{
+        color: black;
+        font-size: 14px / $fzparem + rem;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    .texto{
+        display: inline-block;
+        width: 40%;
+        color: $texto;
+        padding: 0% 4% 4% 10%;
+        margin: 0;
+        font-size: 19px / $fzparem + rem;
+    }
+    .rayo{
+        padding-right: 36%;
+        width: 3%;
+        float: right;
+        display: inline;
+    }
+    // Imagenes
+    #work{
+        padding-left:10%;
+        display: inline-block;
+    }
+    .image{
+        position: relative;
+        display: inline;
+        padding: 0%;
+        width: 45%;
+    }
+    .icono{
+        display: none;
+    }
+    .icono1{
+        position: absolute;
+        top: 70%;
+        right: 0%;
+        width: 9%;
+        padding-right:4%; 
+        display: inline;
+        float: right;
+    }
+    .icono2{
+        position: absolute;
+        top: 133%;
+        left: 3%;
+        width: 4%;
+        display: inline;
+        float: left;
+    }
+    .icono3{
+        position: absolute;
+        top: 170%;
+        right: 6%;
+        width: 6%;
+        display: inline;
+        float: right;
+    }
+
+
+    // Footer
+    #footer{
+        text-align: center;
+        background-color: $footer;
+    }
+    .numero{
+        margin: 0;
+        padding: 4%;
+        font-size: 44px / $fzparem + rem;
+    }
+    .t-tablet{
+        width: 60%;
+        padding: 0;
+        padding-bottom: 5%;
+        margin: 0 auto;
+    }
+    .menu2{
+        padding: 2%;
+        margin: 0;
+    }
+    .menu2 li{
+        display: inline;
+    }
+    .menu2 li + li{
+        margin-left: 1%;
+    }
+    .menu2 a{
+        color: black;
+        font-size: 14px / $fzparem + rem;
+        text-transform: uppercase;
+        text-decoration: none;
+    } 
 }
